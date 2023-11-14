@@ -61,7 +61,7 @@ typedef NS_ENUM(NSUInteger, RXTTShareTypeLandedPageType) {
 - (void)sendShareWithType:(RXTTShareType)type
            landedPageType:(RXTTShareTypeLandedPageType)landedPageType
          localIdentifiers:(NSArray *)localIdentifiers
-                 complete:(void(^)(void(^)(NSDictionary *response, NSDictionary *error)))complete;
+                 complete:(void(^)(NSDictionary *response, NSDictionary *error))complete;
 
 @end
 
