@@ -43,5 +43,6 @@ TODO: Add long description of the pod here.
   
   s.dependency 'RXSDK_Pure'
   s.dependency 'TikTokOpenSDK', '~> 5.0.15'
+  s.dependency 'RXPublicToolKit'
   
 end
