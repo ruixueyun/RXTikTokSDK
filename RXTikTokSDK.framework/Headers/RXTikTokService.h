@@ -46,6 +46,11 @@ typedef NS_ENUM(NSUInteger, RXTTShareTypeLandedPageType) {
               options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options;
 
 /**
+ * TikTok 登录
+ */
+- (void)login;
+
+/**
  * TikTok 分享
  * @param type 分享类型
  * @param landedPageType 在TikTok中的状态
@@ -61,6 +66,7 @@ typedef NS_ENUM(NSUInteger, RXTTShareTypeLandedPageType) {
  */
 - (void)sendShareWithType:(RXTTShareType)type
            landedPageType:(RXTTShareTypeLandedPageType)landedPageType
+                  hashTag:(NSString *)hasTag
          localIdentifiers:(NSArray *)localIdentifiers
                  complete:(void(^)(NSDictionary *response, NSDictionary *error))complete;
 
@@ -82,6 +88,7 @@ typedef NS_ENUM(NSUInteger, RXTTShareTypeLandedPageType) {
  */
 - (void)shareWithType:(RXTTShareType)type
        landedPageType:(RXTTShareTypeLandedPageType)landedPageType
+              hashTag:(NSString *)hasTag
                medias:(NSArray *)medias
              complete:(RequestComplete)complete;
 
