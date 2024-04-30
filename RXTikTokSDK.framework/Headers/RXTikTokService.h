@@ -92,6 +92,12 @@ typedef NS_ENUM(NSUInteger, RXTTShareTypeLandedPageType) {
                medias:(NSArray *)medias
              complete:(RequestComplete)complete;
 
+/**
+ * TikTok 分享
+ */
+- (void)shareWithShareInfo:(NSDictionary *)shareInfo
+                  complete:(RequestComplete)complete;
+
 @end
 
 NS_ASSUME_NONNULL_END

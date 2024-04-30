@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RXTikTokSDK'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'ruixue RXLineSDK framework.'
 
 # This description is used to generate tags and improve searc results.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/ruixueyun/RXTikTokSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
 
    #s.source_files = '*.framework/Headers/*.{h,m,plist}'
       #s.source_files = '*.framework'
@@ -43,8 +43,8 @@ TODO: Add long description of the pod here.
   
   s.dependency 'RXSDK_Pure'
   s.dependency 'RXPublicToolKit'
-  s.dependency 'TikTokOpenSDKCore'
-  s.dependency 'TikTokOpenAuthSDK'
-  s.dependency 'TikTokOpenShareSDK'
+  s.dependency 'TikTokOpenSDKCore', '2.4.0'
+  s.dependency 'TikTokOpenAuthSDK', '2.4.0'
+  s.dependency 'TikTokOpenShareSDK', '2.4.0'
   
 end
