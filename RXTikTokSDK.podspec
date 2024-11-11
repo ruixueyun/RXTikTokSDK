@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RXTikTokSDK'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'ruixue RXLineSDK framework.'
 
 # This description is used to generate tags and improve searc results.
@@ -43,8 +43,8 @@ TODO: Add long description of the pod here.
   
   s.dependency 'RXSDK_Pure'
   s.dependency 'RXPublicToolKit'
-  s.dependency 'TikTokOpenSDKCore', '2.4.0'
-  s.dependency 'TikTokOpenAuthSDK', '2.4.0'
-  s.dependency 'TikTokOpenShareSDK', '2.4.0'
+  s.dependency 'TikTokOpenSDKCore'
+  s.dependency 'TikTokOpenAuthSDK'
+  s.dependency 'TikTokOpenShareSDK'
   
 end
